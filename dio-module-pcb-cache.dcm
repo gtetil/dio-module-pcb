@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP2515T-I/SO
+D Stand-Alone CAN Controller with SPI Interface, SOIC-18, Extended temperature range
+K CAN Controller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
+$CMP TRANSFORMER_(42TL013-RC)
+D Transformer, split primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+#End Doc Library
