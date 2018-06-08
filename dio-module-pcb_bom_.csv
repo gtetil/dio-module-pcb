@@ -1,0 +1,39 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,"C1, C2, C5, C6, C11, C12",0.1uF,C_0805,6,
+2,Unpolarized capacitor,C,"C7, C8, C9, C10",22pF,C_0805,4,
+3,Polarised capacitor,CP,"C3, C4",47uF,CP_Elec_6.3x5.3,2,
+4,"Connector, single row, 01x02, pin header",CONN_01X02,CAN_TERM_1,CONN_01X02,Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Right,1,
+5,,DIP_SW_3,CAN_ADDR_1,DIP_SW_3,SW_DIP_x3_W8.61mm_Slide_LowProfile,1,
+6,,DEUTSCH_CONN_(DTM13-12PA-12PB-R008),CONN_1,DEUTSCH_CONN_(DTM13-12PA-12PB-R008),DEUTSCH_CONN_(DTM13-12PA-12PB-R008),1,
+7,Diode,D,"D3, D4, D5, D6, D7, D8",D,D_SOD-123,6,
+8,Schottky diode,D_Schottky,D1,D_Schottky,DO-214AB,1,
+9,"resettable fuse, polymeric positive temperature coefficient (PPTC)",Polyfuse,F1,Polyfuse,R_1812,1,
+10,"Connector, double row, 02x03, pin header",CONN_02X03,ICSP_1,CONN_02X03,Pin_Header_Straight_2x03_Pitch2.54mm_SMD,1,
+11,,RELAY_(JSM1A-12V-4),"P1, P2, P3, P4, P5, P6",RELAY_(JSM1A-12V-4),RELAY_(JSM1A-12V-4),6,
+12,Transistor NPN (general),Q_NPN_BEC,"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13",MMBT2222,SOT-23,13,
+13,Resistor,R,"R1, R3, R4, R7, R8, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21",10K,R_0805,17,
+14,Resistor,R,R9,120R,R_0805,1,
+15,Resistor,R,R6,1K,R_0805,1,
+16,Resistor,R,R5,1M,R_0805,1,
+17,Resistor,R,"R22, R23, R24, R25, R26, R27",680,R_0805,6,
+18,"Connector, single row, 01x04, pin header",CONN_01X04,SERIAL_1,CONN_01X04,Pin_Header_Straight_1x04_Pitch2.54mm_SMD_Pin1Right,1,
+19,"TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM",ATMEGA328P-AU,U2,ATMEGA328P-AU,TQFP-32_7x7mm_Pitch0.8mm,1,http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+20,"100mA, Quasi Low Dropout Voltage Regulator, 3.3V positive fixed output, SOT-23 package",LM3480-5.0,U1,LM3480-5.0,SOT-23,1,http://www.ti.com/lit/ds/symlink/lm3480.pdf
+21,"Stand-Alone CAN Controller with SPI Interface, SOIC-18, Extended temperature range",MCP2515T-I/SO,U3,MCP2515T-I/SO,SOIC-18W_7.5x11.6mm_Pitch1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+22,"High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package",MCP2551-I/SN,U4,MCP2551-I/SN,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+23,Two pin crystal,Crystal,"X1, X2",Crystal,Crystal_SMD_HC49-SD,2,
+
+
+
+
+
+Component Groups:,23
+Component Count:,76
+Fitted Components:,76
+Number of PCBs:,1
+Total components:,76
+Schematic Version:,
+Schematic Date:,
+BoM Date:,6/8/2018 12:59:09 PM
+Schematic Source:,C:/Users/gtetil/Documents/Projects/dio-module-pcb/dio-module-pcb.sch
+KiCad Version:,Eeschema 4.0.6
